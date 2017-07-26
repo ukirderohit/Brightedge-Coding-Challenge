@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>BRIGHTEDGE</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BrightEdge">
+    <meta name="author" content="Rohit Shankarrao Ukirde">
+    <link rel="shortcut icon" type="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="ext/jquery.modal.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav class="wrap">
+            <a href="index.html"><img src="img/top_logo.svg" alt="BrightEdge Logo"/></a>
+        </nav>
+    </header>
+    <div class="container clearfix">
+        <div class="top_banner">
+            <img src="img/top_banner.svg" alt="">
+        </div>
+        <div id="left-side" class="outer">
+            <h1>Top 20 Recent BrightEdge SEO Innovations</h1>
+
+            <p class="autohyphens">At BrightEdge our top value is customer success, and we have developed tremendous innovations to help you stay
+                ahead of the changes in search and content marketing. As a SaaS company, our software is delivered as a subscription
+                and each month we bring you innovative new technologies at no additional cost.</p>
+            <p>Please check out our latest Infographic that highlights the Top 20 BrightEdge Innovations from the past 12 months
+                — all of these great features are available in your account today! <a href="http://www.ukirderohit.me">[Download a copy in PDF]</a></p>
+
+            <div class="infographic">
+                <img src="img/img_infographic.png" alt="">
+            </div>
+        </div>
+          <!-- Modal HTML embedded directly into document -->
+    <div id="ex1">
+        
+                    <form id="signup">
+                        <h2 id="form-title">Request A Demo</h2>
+                        
+                        <input type="text" class="input-half" id="first-name" placeholder="First Name" required="required" data-error="First Name is required.">
+                        <input type="text" class="input-half" id="last-name" placeholder="Last Name" required="required" data-error="Last Name is required.">
+                        <input type="text" class="input-std" id="email" placeholder="Email" required="required" data-error="Email is required.">
+                        <input type="text" class="input-std" id="company" placeholder="Company" required="required" data-error="Company is required.">
+                        <input type="tel" class="input-std" id="phone" placeholder="Phone" required="required" data-error="Phone is required.">
+
+                        <input type="number" min="0" step="any" class="input-std" id="revenue" placeholder="Annual Revenue">
+
+                        <textarea class="input-std" id="note1" placeholder="Additional Notes"></textarea>
+                        <button type="submit" class="btnreq" id="signupbtn">Sign Up!</button>
+                    </form>
+               
+    </div>
+        <div id="right-side">
+            <div class="reqdemo">
+                <h1 class="clearfix">Want To Learn More About BrightEdge Platform?</h1>
+                <a class="btnreq" href="#ex1" rel="modal:open" onClick="myr();">REQUEST A DEMO</a>
+            </div>
+            <hr>
+            <div class="securesearch clearfix">
+                <h4>You might also be interested in...</h4>
+                <div class="sec-left">
+                    <img src="img/img_securesearch.svg" alt="securesearch">
+                </div>
+                <div class="sec-right">
+                    <h1>We Hold these Truths to be self Evident:</h1>
+                    <p>Consectetur adipiscing elit. Sed ut orci ac neque tincidunt gravida non vitae tellus. Nam sem dui, varius.
+                        <a href="">Read more.</a></p>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+    </div>
+    <script src="ext/jquery.min.js"></script>
+    <script src="ext/jquery.modal.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
