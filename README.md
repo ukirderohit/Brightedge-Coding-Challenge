@@ -1,6 +1,6 @@
 # Brightedge Coding Challenge
 
-## [DEMO](http://ukirderohit.me/Brightedge-Coding-Challenge/)
+## [DEMO](https://ukirderohit.com/Brightedge-Coding-Challenge/)
 
 ### Take a look at the following  page mockup . Utilizing the provided  image assets , your task is to:
 * Build an HTML version of the mockup
